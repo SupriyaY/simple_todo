@@ -6,8 +6,6 @@ $(document).ready(function () {
     let listSpace = $("<ol></ol>").appendTo('body')
 
 
-    //input value into input type type
-
     //when i click the submit button a the value appends to the ul
     $('form').submit(function () {
         event.preventDefault()
